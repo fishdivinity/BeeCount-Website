@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Android Auto Recording
 
-Android supports multiple auto-recording methods: screenshot recognition, share recording, and notification listening.
+Android supports multiple auto-recording methods: screenshot recognition and share recording.
 
 ## Method 1: Screenshot Recording
 
@@ -21,7 +21,7 @@ Take a screenshot after payment, and BeeCount automatically recognizes it.
 ### Enable Screenshot Listening
 
 1. Open BeeCount
-2. Go to "Me" → "Auto Recording"
+2. Go to "Me" > "Auto Recording"
 3. Enable "Screenshot Auto Recognition"
 4. Grant storage permission
 
@@ -48,55 +48,27 @@ Share payment information to BeeCount.
 
 - Text (spending descriptions containing amounts)
 - Images (payment screenshots)
-- Links (transaction detail pages)
-
-## Method 3: Notification Listening
-
-Listen for payment notifications and auto-record.
-
-### Configuration Steps
-
-1. Go to "Me" → "Auto Recording"
-2. Enable "Notification Listening"
-3. Grant notification access permission
-4. Select apps to listen to (WeChat, Alipay, etc.)
-
-### How It Works
-
-1. Listens for notifications from specified apps
-2. Identifies payment success notifications
-3. Extracts amount and merchant info
-4. Automatically creates a record
-
-### Notes
-
-- Requires "Notification Access" permission
-- Some systems may restrict background running
-- Recommend adding to battery optimization whitelist
 
 ## Recognition Capabilities
 
-BeeCount uses AI to recognize the following:
+BeeCount uses AI to recognize:
 
-- Amount: 95%+ accuracy
-- Merchant Name: 90%+ accuracy
-- Payment Method: 85%+ accuracy
-- Expense Category: 80%+ accuracy
+- Amount
+- Merchant name
+- Expense category
+- Notes
 
 ## Configuration Tips
 
 ### Best Practices
 
 1. Enable screenshot recognition - Most stable and reliable
-2. Grant necessary permissions - Storage, notifications
+2. Grant necessary permissions - Storage permission
 3. Add to whitelist - Prevent system from killing the app
-4. Regular checks - Ensure auto-recording is working properly
 
-### Power Saving Settings
+### Power Saving
 
-If concerned about battery drain:
-- Enable only screenshot recognition (passive trigger)
-- Disable notification listening (active polling)
+Screenshot recognition is passively triggered, only works when taking screenshots, no extra battery drain.
 
 ## FAQ
 
@@ -108,7 +80,7 @@ If concerned about battery drain:
 
 **Recognition results inaccurate?**
 
-AI recognition may have errors. You can manually edit and save. Recognition accuracy improves with use.
+AI recognition may have errors. You can manually edit and save.
 
 **Background app being killed?**
 

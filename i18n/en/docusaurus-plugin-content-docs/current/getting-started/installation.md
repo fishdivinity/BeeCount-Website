@@ -11,7 +11,7 @@ BeeCount is available for both iOS and Android. Choose the installation method t
 ### Option 1: App Store (Recommended)
 
 1. Open the App Store
-2. Search for "BeeCount"
+2. Search for "BeeCount - Simple Expense Tracker" or "BeeCount"
 3. Tap "Get" to download and install
 
 > Note: The App Store version is currently pending approval in mainland China. Available in all other regions.

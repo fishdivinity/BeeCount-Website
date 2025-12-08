@@ -21,7 +21,7 @@ BeeCount integrates AI features to make recording smarter and easier.
 
 ## Configure AI
 
-1. Go to "Me" → "AI Settings"
+1. Go to "Me" → "Smart Recording" → "AI Assistant", or "Discover" → "Common Features" → "AI Settings"
 2. Select AI service provider
 3. Enter API Key
 4. Save configuration

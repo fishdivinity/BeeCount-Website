@@ -1,0 +1,26 @@
+{
+  "sidebar.tutorialSidebar.category.快速开始": {
+    "message": "Quick Start"
+  },
+  "sidebar.tutorialSidebar.category.记账": {
+    "message": "Recording"
+  },
+  "sidebar.tutorialSidebar.category.分类与标签": {
+    "message": "Categories & Tags"
+  },
+  "sidebar.tutorialSidebar.category.账户与账本": {
+    "message": "Accounts & Ledgers"
+  },
+  "sidebar.tutorialSidebar.category.统计分析": {
+    "message": "Statistics"
+  },
+  "sidebar.tutorialSidebar.category.AI 助手": {
+    "message": "AI Assistant"
+  },
+  "sidebar.tutorialSidebar.category.云同步": {
+    "message": "Cloud Sync"
+  },
+  "sidebar.tutorialSidebar.category.个性化": {
+    "message": "Personalization"
+  }
+}

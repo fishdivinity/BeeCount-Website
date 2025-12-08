@@ -18,7 +18,7 @@ The app includes commonly used categories:
 
 ## Add a Category
 
-1. Go to "Me" → "Category Management"
+1. Go to "Me" → "Data Management" → "Category Management"
 2. Tap "+" in the top right
 3. Select an icon and color
 4. Enter category name

@@ -11,7 +11,7 @@ sidebar_position: 1
 ### 方式一：App Store（推荐）
 
 1. 打开 App Store
-2. 搜索「蜜蜂记账」或「BeeCount」
+2. 搜索「蜜蜂记账 - 简洁记账本」或「BeeCount」
 3. 点击「获取」下载安装
 
 > 注意：目前 App Store 中国大陆区正在备案中，其他地区可正常下载。

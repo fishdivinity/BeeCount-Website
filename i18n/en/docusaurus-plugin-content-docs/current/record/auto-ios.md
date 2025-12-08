@@ -4,79 +4,59 @@ sidebar_position: 3
 
 # iOS Auto Recording
 
-Use iOS Shortcuts to automatically record transactions after payments.
+Use iOS Shortcuts + screenshot recognition to quickly record after payments.
 
 ## How It Works
 
-1. Set up a Shortcut to listen for payment notifications
-2. Triggers automatically after successful payment
-3. Recognizes amount and merchant information
-4. Calls BeeCount to complete the record
+1. Create a Shortcut: Screenshot → BeeCount recognition
+2. Bind to "Back Tap" gesture
+3. Double-tap the back of your phone after payment
+4. Auto-screenshot and recognize amount, complete recording
 
 ## Configuration Steps
 
-### 1. Download the Shortcut
+### 1. Create Shortcut
 
-1. Open the "Shortcuts" app
-2. Import the BeeCount shortcut
-3. Allow running untrusted shortcuts
+1. Open the "Shortcuts" app, tap "+" in the top right to create a new shortcut
+2. Add "Take Screenshot" action
+3. Search and add "BeeCount - Screenshot Auto Recording" action
+4. Set the BeeCount screenshot parameter to the previous step's "Screenshot"
+5. Save the shortcut
 
-### 2. Set Up Automation
+### 2. Bind to Back Tap (Recommended)
 
-1. Open "Shortcuts" → "Automation"
-2. Tap "+" in the top right
-3. Select "Create Personal Automation"
-4. Choose trigger condition:
-   - Receive Message - Listen for bank SMS
-   - Receive Notification - Listen for payment app notifications
+1. Go to "Settings" > "Accessibility" > "Touch" > "Back Tap"
+2. Select "Double Tap" or "Triple Tap"
+3. Select the shortcut you just created
+4. Done! Double-tap the back of your phone after payment to quickly record
 
-### 3. Configure Trigger Conditions
+> ✅ Recommended: After binding the shortcut to "Back Tap", double-tap the back of your phone after payment to auto-screenshot and recognize for recording, no manual screenshot needed.
 
-Using WeChat Pay as an example:
+## How to Use
 
-1. Select "App" → "WeChat"
-2. Select "Receive Notification"
-3. Optionally set keyword filters
+1. After completing payment, stay on the payment success page
+2. Double-tap the back of your phone (or manually run the shortcut)
+3. Auto-screenshots and recognizes amount, merchant info
+4. Confirm to complete recording
 
-### 4. Add Action
+## Other Trigger Methods
 
-1. Add "Run Shortcut" action
-2. Select "BeeCount" shortcut
-3. Turn off "Ask Before Running"
+Besides Back Tap, you can also trigger via:
 
-## Supported Triggers
-
-- Bank SMS - Listen for spending SMS, extract amounts
-- WeChat Notifications - Listen for WeChat Pay success notifications
-- Alipay Notifications - Listen for Alipay payment notifications
-- NFC Tags - Auto-record after card tap
-
-## Shortcut Parameters
-
-The shortcut supports these input parameters:
-
-- amount - Amount
-- category - Category name
-- note - Note
-- account - Account name
-
-## Manual Trigger
-
-You can also trigger the shortcut manually:
-
-1. Say "BeeCount" to Siri
-2. Tap from Shortcuts Widget
-3. Share text via the share menu
+- Say the shortcut name to Siri
+- Tap from Shortcuts Widget
+- Add to home screen as an icon
 
 ## FAQ
 
-**Automation not triggering?**
+**Back Tap not responding?**
 
-Check:
-1. Is "Ask Before Running" turned off? (needs to be off)
-2. Are notification permissions working?
-3. Does the shortcut have syntax errors?
+1. Confirm your iPhone model supports it (iPhone 8 and later)
+2. Check if the shortcut is correctly bound
+3. Try adjusting tap force and position
 
-**Amount recognition incorrect?**
+**Recognition not accurate?**
 
-Automation relies on regex to extract amounts. If the format is unusual, recognition may fail. You can adjust the regex rules in the shortcut.
+1. Ensure screenshot includes the complete payment amount
+2. Stay on payment success page long enough
+3. Can manually adjust in BeeCount

@@ -24,7 +24,7 @@ Tags offer more flexibility than categories - a single transaction can have mult
 
 ## Create a Tag
 
-1. Go to "Discover" → "Tag Management"
+1. Go to "Me" → "Data Management" → "Tag Management"
 2. Tap "+"
 3. Enter name, select color
 4. Save

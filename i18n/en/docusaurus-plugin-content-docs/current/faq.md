@@ -28,7 +28,7 @@ Data is stored locally on your device by default. When cloud sync is enabled, it
 
 ### Q: Does it support multiple currencies?
 
-Currently primarily supports CNY (Chinese Yuan). Multi-currency support is planned.
+Yes, multiple currencies are supported. You can select the currency when creating a ledger. However, each ledger can only use one currency - mixing multiple currencies in the same ledger is not supported.
 
 ### Q: Can I record investment returns?
 

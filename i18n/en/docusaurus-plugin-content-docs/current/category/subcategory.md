@@ -26,7 +26,7 @@ Transportation (parent category)
 
 ## Create a Subcategory
 
-1. Go to "Me" → "Category Management"
+1. Go to "Me" → "Data Management" → "Category Management"
 2. Tap "+" to add a category
 3. In "Parent Category", select an existing category
 4. Enter the subcategory name

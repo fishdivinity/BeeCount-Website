@@ -16,7 +16,7 @@ The app comes with commonly used income and expense categories:
 
 ## Custom Categories
 
-1. Go to "Me" → "Category Management"
+1. Go to "Me" → "Data Management" → "Category Management"
 2. Tap "+" in the top right to add a new category
 3. Select an icon, name, and color
 4. Optionally select a parent category to create a subcategory
