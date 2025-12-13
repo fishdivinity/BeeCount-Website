@@ -11,7 +11,13 @@ BeeCount supports CSV format for data import and export.
 1. Go to "Me" → "Data Management"
 2. Tap "Export Data"
 3. Select export scope (All / Current Ledger)
-4. Share or save the CSV file
+4. Choose whether to include attachments
+5. Share or save the file
+
+### Export Options
+
+- **Transaction data only** - Exports a CSV file
+- **Include attachments** - Exports a ZIP archive containing CSV and attachments folder
 
 ## Import Data
 
@@ -20,6 +26,7 @@ BeeCount supports CSV format for data import and export.
 - **WeChat Bills** - CSV exported from WeChat
 - **Alipay Bills** - CSV exported from Alipay
 - **Standard CSV** - BeeCount's export format
+- **Tab-separated files** - TSV format supported
 
 ### Import Steps
 

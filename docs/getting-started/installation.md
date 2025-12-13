@@ -40,6 +40,23 @@ TestFlight 是 Apple 官方的测试分发平台，全球可用。
 
 [下载 APK](https://github.com/TNT-Likely/BeeCount/releases/latest)
 
+### 国内镜像加速
+
+如果 GitHub 下载速度较慢，可以使用镜像加速：
+
+1. 在 App 内检测到新版本时，点击「更新」
+2. 如果下载缓慢，点击「镜像加速」按钮
+3. 选择一个可用的镜像源（支持测速）
+4. 通过镜像快速下载更新
+
+支持的镜像源：
+- ghproxy.net
+- ghproxy.cc
+- gh-proxy.com
+- ghfast.top
+- gh.noki.icu
+- github.moeyy.xyz
+
 ## 系统要求
 
 | 平台 | 最低版本 |

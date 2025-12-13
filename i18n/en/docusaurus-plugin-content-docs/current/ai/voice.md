@@ -40,3 +40,7 @@ Say a sentence, and AI automatically recognizes and completes the record.
 - Microphone permission required
 - Network connection needed (uses cloud AI)
 - Best used in quiet environments
+
+## Auto Tag
+
+When using voice recording, the system automatically adds a "Voice Recording" tag to the transaction for easy filtering and statistics.

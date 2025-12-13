@@ -44,6 +44,13 @@ AI: Based on your records:
     2. Entertainment spending is concentrated on weekends...
 ```
 
+## Message Actions
+
+Long-press a message in the chat to perform these actions:
+
+- **Copy** - Copy message content
+- **Delete** - Delete a single message
+
 ## Custom Prompts
 
 In AI settings, you can customize prompts to make AI better match your usage habits.

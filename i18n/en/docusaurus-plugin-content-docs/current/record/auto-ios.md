@@ -22,7 +22,16 @@ Use iOS Shortcuts + screenshot recognition to quickly record after payments.
 
 ## Configuration Steps
 
-### 1. Create Shortcut
+### Option 1: In-App Guide (Recommended)
+
+1. Open BeeCount, go to "Discover" → "Shortcuts"
+2. Follow the guided steps on the page
+3. Tap "Add Shortcut" to auto-create
+4. Follow the prompts to bind to Back Tap
+
+### Option 2: Manual Setup
+
+#### 1. Create Shortcut
 
 1. Open the "Shortcuts" app, tap "+" in the top right to create a new shortcut
 2. Add "Take Screenshot" action
@@ -30,7 +39,7 @@ Use iOS Shortcuts + screenshot recognition to quickly record after payments.
 4. Set the BeeCount screenshot parameter to the previous step's "Screenshot"
 5. Save the shortcut
 
-### 2. Bind to Back Tap (Recommended)
+#### 2. Bind to Back Tap (Recommended)
 
 1. Go to "Settings" > "Accessibility" > "Touch" > "Back Tap"
 2. Select "Double Tap" or "Triple Tap"

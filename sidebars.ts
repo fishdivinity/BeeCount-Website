@@ -14,6 +14,7 @@ const sidebars: SidebarsConfig = {
       items: [
         'record/basic',
         'record/recurring',
+        'record/attachment',
         'record/auto-ios',
         'record/auto-android',
         'record/import-export',

@@ -41,3 +41,11 @@ AI will attempt to identify:
 ## Manual Adjustment
 
 AI recognition may not be 100% accurate. Please verify and adjust manually before saving.
+
+## Auto Tag
+
+When using image recording, the system automatically adds an "Image Recording" tag to the transaction for easy filtering and statistics.
+
+## Auto-Save Attachment
+
+The image used for recognition is automatically saved as a transaction attachment. You can view the original image in the transaction details.

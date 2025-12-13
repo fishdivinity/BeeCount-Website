@@ -40,6 +40,23 @@ TestFlight is Apple's official beta testing platform, available worldwide.
 
 [Download APK](https://github.com/TNT-Likely/BeeCount/releases/latest)
 
+### Mirror Acceleration (China)
+
+If GitHub downloads are slow, you can use mirror acceleration:
+
+1. When a new version is detected in the app, tap "Update"
+2. If download is slow, tap the "Mirror Acceleration" button
+3. Select an available mirror source (with speed test)
+4. Download the update quickly via the mirror
+
+Supported mirrors:
+- ghproxy.net
+- ghproxy.cc
+- gh-proxy.com
+- ghfast.top
+- gh.noki.icu
+- github.moeyy.xyz
+
 ## System Requirements
 
 | Platform | Minimum Version |
