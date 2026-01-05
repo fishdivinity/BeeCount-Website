@@ -31,7 +31,15 @@ TestFlight is Apple's official beta testing platform, available worldwide.
 
 ## Android Installation
 
-### GitHub Release
+### Option 1: Google Play (Recommended)
+
+1. Open Google Play Store
+2. Search for "BeeCount - Simple Ledger"
+3. Tap "Install" to download
+
+[Go to Google Play](https://play.google.com/store/apps/details?id=com.tntlikely.beecount)
+
+### Option 2: GitHub Release
 
 1. Visit the [GitHub Release page](https://github.com/TNT-Likely/BeeCount/releases/latest)
 2. Download the latest APK file

@@ -481,9 +481,10 @@
 
 /* 下载按钮组 */
 .heroButtons {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
-  flex-wrap: wrap;
+  max-width: 400px;
 }
 
 .btnPrimary,
@@ -1114,6 +1115,8 @@
 
   .heroButtons {
     justify-content: center;
+    max-width: 360px;
+    margin: 0 auto;
   }
 
   .phoneShowcase {
@@ -1197,9 +1200,10 @@
   }
 
   .heroButtons {
-    flex-direction: column;
+    grid-template-columns: 1fr;
     width: 100%;
     max-width: 280px;
+    margin: 0 auto;
   }
 
   .btnPrimary,
@@ -1292,6 +1296,7 @@
 
   .heroButtons {
     gap: 0.5rem;
+    grid-template-columns: 1fr;
   }
 
   .btnPrimary,
